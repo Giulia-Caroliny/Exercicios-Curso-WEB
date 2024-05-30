@@ -1,18 +1,14 @@
-#navegacao {
+#navegacao, #rodape {
     background-color: #ffbb00;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     padding: 1px;
     width: 100%;
-}
-
-#blog {
-    color: #fff;
+    clear: both;
 }
 
 #titulo {
-    font-size: 60px;
+    font-size: 25px;
     margin: 10px 0px;
 }
 
@@ -21,24 +17,24 @@
 }
 
 #principal {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 965px;
+    width: 945px;
     margin: auto;
     padding: 1%;
 }
 
 #secao {
     float: right;
-    width: 285px;
+    width: 260px;
 }
 
 #conteudo {
     float: left;
-    width: 670px;
+    width: 640px;
 }
 
 h2 {
     color: #ffbb00;
+    display: inline;
 }
 
 a {
@@ -53,6 +49,14 @@ a:hover {
     background-color: #fff;
 }
 
+a:link.lateralA {
+    color: #ffbb00;
+}
+
+a:hover.lateralA {
+    color: #ffbb00;
+    text-decoration: underline;
+}
 
 a.lateral {
     text-decoration: none;
@@ -62,34 +66,34 @@ a.lateral {
 
 body {
     background-color: #fff4d7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .lateral {
-    margin: 0px 0px 10px 0px;
     width: 260px;
     background-color: #fff;
-    border: #fff4d7 solid 1px;
+    padding: 10px;  
+    margin-bottom: 15px;
 }
 
 .tituloL{
     background-color: #fde9b3;
     font-size: 20px;
-    padding: 5px;
-    margin: 10px 10px 0px 10px;
+    font-weight: bold;
+    display: block;
+    padding: 3px 10px;
 }
 
 .conteudoL {
     font-size: 14px;
-    padding: 5px;
-    margin: 5px 10px;
+    padding: 0px 10px;
 }
 
 .postagem {
     width: 640px;
-    border: #fff4d7 solid 1px;
-    padding: 0px 10px;
-    margin: 0px 0px 20px 0px;
     background-color: #fff;
+    padding: 5px 15px;
+    margin-bottom: 15px;
 }
 
 .clear {
