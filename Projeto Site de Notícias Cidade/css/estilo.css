@@ -71,3 +71,76 @@ body.fotos #cabecalho a#fotos {
     background: #dd0034;
     cursor: text;
 }
+
+/*Conteúdo*/
+#conteudo {
+    background: #fff;
+    margin-top: 70px;
+}
+
+.conteudos {
+    width: 270px;
+    float: right;
+}
+
+#principal {
+    float: left;
+    position: relative;
+    left: 195px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    position: absolute;
+}
+
+#conteudo .caixa {
+    background: url(../imagens/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#conteudo h4 {
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+#conteudo .caixa .caixa-conteudo{
+    background: #fff;
+    padding: 7px 5px;
+    margin-top: 5px;
+}
+
+#ampliado h5 {
+    display: inline;
+    background: #af0029;
+    color: #fff;
+    padding: 5px;
+}
+
+#ampliado img {
+    border: 2px solid #ccc;
+    width: 99%;
+}
+
+#ampliado a {
+    color: #af0029;
+}
+
+/*Rodapé*/
+#rodape {
+    height: 60px;
+    background: #294c71;
+    clear: both;
+}
+
+#rodape span {
+    display: block;
+    width: 750px;
+    color: #fff;
+    font-size: 1em;
+    line-height: 60px;
+    margin: auto;
+}
