@@ -72,7 +72,7 @@ body.fotos #cabecalho a#fotos {
     cursor: text;
 }
 
-/*Conteúdo*/
+/*Conteúdo geral*/
 #conteudo {
     background: #fff;
     margin-top: 70px;
@@ -113,6 +113,7 @@ body.fotos #cabecalho a#fotos {
     margin-top: 5px;
 }
 
+/*Conteúdo principal*/
 #ampliado h5 {
     display: inline;
     background: #af0029;
@@ -129,22 +130,75 @@ body.fotos #cabecalho a#fotos {
     color: #af0029;
 }
 
-#lateral li {
-    border-bottom: #e9e9e9 1px solid;
+/*Conteudo lista*/
+#sequencial a {
+    color: #000;
+    height: 57px;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    padding: 5px;
+    border-bottom: #ccc 1px solid;
 }
 
+#sequencial a:hover {
+    background: #e9e9e9;
+}
+
+#sequencial img {
+    float: left;
+    margin-right: 10px;
+    width: 83px;
+}
+
+#sequencial p {
+    float: left;
+}
+
+#sequencial h5 {
+    color: #294c71;
+    font-size: 1.2em;
+}
+
+/*Lateral*/
 #lateral a {
     text-decoration: none;
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
     line-height: 2.2em;
+    display: block;
+    border-bottom: #e9e9e9 1px solid;
 }
 
 #lateral a:hover {
     color: #bebdbd;
     background: url(../imagens/marcador.png) no-repeat left;
     padding-left: 20px;
+}
+
+#lateral fieldset {
+    border:  #d8d8d8 1px solid;
+}
+
+#lateral legend {
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+#lateral legend+input {
+    width: 90%;
+    background: none;
+    margin: 5px;
+}
+
+#lateral input {
+    width: 6em;
+    height: 1.5em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background: #af0029;
+    color: #fff;
 }
 
 /*Rodapé*/
