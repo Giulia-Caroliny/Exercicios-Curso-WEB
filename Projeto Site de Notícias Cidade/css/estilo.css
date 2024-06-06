@@ -87,6 +87,10 @@ body.fotos #cabecalho a#fotos {
     float: right;
 }
 
+#uma-coluna .conteudos {
+    width: 750px;
+}
+
 #principal {
     float: left;
     position: relative;
