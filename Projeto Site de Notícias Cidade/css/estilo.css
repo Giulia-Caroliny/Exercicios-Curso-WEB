@@ -82,6 +82,10 @@ body.fotos #cabecalho a#fotos {
     width: 270px;
     float: right;
 }
+#duas-colunas .conteudos{
+    width: 560px;
+    float: right;
+}
 
 #principal {
     float: left;
