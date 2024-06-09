@@ -43,3 +43,32 @@ body {
     width: 151px;
     height: 66px;
 }
+
+/*menu*/
+#menu {
+    width: 360px;
+    height: 100%;
+    float: right;
+    padding: 10px;
+}
+
+#menu>div>span {
+    color: #6e672c;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+#menu>div>a {
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color: #6e672c;
+    color: white;
+    float: right;
+    padding: 5px 10px;
+}
+
+#menu div {
+    border-top: 2px solid #6e672c;
+    border-bottom: 2px solid #6e672c;
+    padding: 5px 10px;
+}
