@@ -35,6 +35,7 @@ body {
     width: 151px;
     height: 66px;
     position: absolute;
+    margin: 15px;
 }
 
 #logo a {
@@ -68,7 +69,32 @@ body {
 }
 
 #menu div {
-    border-top: 2px solid #6e672c;
-    border-bottom: 2px solid #6e672c;
+    border-top: 1px solid #6e672c;
     padding: 5px 10px;
+}
+
+#menu ul {
+    list-style: none;
+    float: left;
+}
+
+#menu ul li {
+    display: block;
+    padding: 5px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #6e672c;
+    padding: 5px;
+}
+
+#menu ul li a:hover {
+    text-decoration: none;
+    background: #fdf6be;
+}
+
+#menu img {
+    float: right;
+    position: absolute;
 }
