@@ -1,0 +1,45 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #fff url(../imagens/bg.png);
+	margin: 15px;
+}
+
+#container {
+	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    max-width: 1180px;
+    min-width: 740px;
+}
+
+/*cabecalho*/
+#head {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat left;
+    height: 250px;
+}
+
+#topo-lateral {
+    float: right;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+}
+
+#logo {
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    position: absolute;
+}
+
+#logo a {
+    text-indent: -9000px;
+    display: block;
+    width: 151px;
+    height: 66px;
+}

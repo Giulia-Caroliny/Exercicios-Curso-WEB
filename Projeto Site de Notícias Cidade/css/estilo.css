@@ -134,7 +134,7 @@ body.fotos #cabecalho a#fotos {
     width: 99%;
 }
 
-#ampliado a {
+#ampliado a:link, #ampliado a:visited {
     color: #af0029;
 }
 
