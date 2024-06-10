@@ -76,6 +76,7 @@ body {
 #menu ul {
     list-style: none;
     float: left;
+    margin-top: 10px;
 }
 
 #menu ul li {
@@ -97,4 +98,28 @@ body {
 #menu img {
     float: right;
     position: absolute;
+    margin-top: 10px;
+}
+
+/*conteudo*/
+#principal div{
+    width: 48%;
+    margin: 1%;
+}
+
+#conteudo{
+    float: left;
+}
+
+#listagem {
+    float: right;
+}
+
+/*rodape*/
+#rodape {
+    clear: both;
+    background: #fff;
+    color: #6e672c;
+    padding: 10px;
+    font-size: 1.1em;
 }
