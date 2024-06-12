@@ -104,22 +104,58 @@ body {
 /*conteudo*/
 #principal div{
     width: 48%;
-    margin: 1%;
+    padding: 1%;
 }
 
 #conteudo{
     float: left;
+    background: url(../imagens/bg-area-principal.png) repeat-x;
 }
 
 #listagem {
     float: right;
+    background: url(../imagens/bg-area-lateral.png) repeat-x;
+}
+
+#listagem li {
+    list-style: none;
+}
+
+#listagem a{
+    text-decoration: none;
+    display: block;
+    height: 100px;
+    margin: 5px 15px;
+    padding: 5px;
+    border-bottom: #f3efcb 1px solid;
+}
+
+#listagem a:hover{
+    background: #f3efcb;
+}
+
+#listagem a h3 {
+    color: #6e672c;
+    background: url(../imagens/ornamento.png) no-repeat right;
+}
+
+#listagem a img {
+    float: left;
+    margin: 0px 5px;
+    width: 150px;
+}
+
+#listagem a p {
+    color: #000;
+    font-size: 0.9em;
 }
 
 /*rodape*/
 #rodape {
     clear: both;
-    background: #fff;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
     color: #6e672c;
     padding: 10px;
+    padding-top: 15px;
     font-size: 1.1em;
 }
