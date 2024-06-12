@@ -102,7 +102,7 @@ body {
 }
 
 /*conteudo*/
-#principal div{
+#principal>div{
     width: 48%;
     padding: 1%;
 }
@@ -110,6 +110,19 @@ body {
 #conteudo{
     float: left;
     background: url(../imagens/bg-area-principal.png) repeat-x;
+}
+
+#conteudo div{
+    padding: 5px 15px;
+}
+
+#conteudo div h3{
+    margin-bottom: 5px;
+    color: #6e672c;
+}
+
+#conteudo div p{
+    margin-bottom: 5px;
 }
 
 #listagem {
@@ -148,6 +161,7 @@ body {
 #listagem a p {
     color: #000;
     font-size: 0.9em;
+    line-height: 0.9em;
 }
 
 /*rodape*/
