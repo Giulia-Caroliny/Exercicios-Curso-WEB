@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.conteudo {
+    color: gray;
+    text-align: justify;
+    padding: 3em 15em;
+}
+
+.conteudo h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.conteudo p {
+    margin-top: 0.5em;
+    line-height: 1.5em;
+}
+
+.caixa1 {
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.caixa1 h1 {
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    top: 45%;
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem6.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpg);
+}
+
+.caixa5 {
+    background-image: url(../imagens/imagem5.jpg);
+}
+
+.caixa6 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.caixa6 h1 {
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    top: 5%;
+}
+
+.caixa6 h2 {
+    display: inline;
+    position: relative;
+    font-size: 3em;
+    top: 40%;
+    left: 55%;
+}
