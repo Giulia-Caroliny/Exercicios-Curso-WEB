@@ -18,14 +18,17 @@ html {
     z-index: 1;
 }
 
-#cabecalho h1 {
+#cabecalho #logo {
     color: #333;
-    display: inline;
-    font-size: 1.5em;
-    margin-left: 1%;
+    text-decoration: none;
+    margin-left: 0.5em;
 }
 
-#cabecalho a {
+#cabecalho #logo h1 {
+    display: inline;
+}
+
+#cabecalho #logo~a {
     margin-top: 0.5em;
     margin-right: 0.5em;
     line-height: 1em;
@@ -43,7 +46,8 @@ html {
 .caixa3,
 .caixa4,
 .caixa5,
-.caixa6 {
+.caixa6,
+.caixa7 {
     height: 93%;
     opacity: 0.8;
     background-repeat: no-repeat;
@@ -70,7 +74,7 @@ html {
 }
 
 .caixa1 {
-    padding-top: 4%;
+    padding-top: 3.2%;
     background-image: url(../imagens/imagem1.jpg);
 }
 
@@ -114,4 +118,69 @@ html {
     font-size: 3em;
     top: 40%;
     left: 55%;
+}
+
+.caixa7 {
+    padding-top: 3.15%;
+    background-image: url(../imagens/fundo.jpg);
+    text-align: center;
+}
+
+.caixa7>div {
+    position: absolute;
+    top: 40%;
+    left: 37.5%;
+    width: 25%;
+    height: 15em;
+}
+
+.caixa7 #fundo {
+    border-radius: 1em;
+    background-color: #fff;
+    opacity: 0.4;
+}
+
+div img {
+    width: 27%;
+    position: relative;
+    top: -3.5em;
+    border-radius: 5em;
+}
+
+#formulario {
+    width: 70%;
+    margin: 5em auto;
+}
+
+#formulario input [type="text"],
+[type="email"],
+[type="password"] {
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 0.5em 0em;
+    padding-left: 35px;
+    border-radius: 0.5em;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    font-size: 0.9em;
+}
+
+#formulario input[type="text"],
+[type="email"] {
+    background-image: url(../imagens/icone-usuario.png);
+}
+
+#formulario input[type="password"] {
+    background-image: url(../imagens/icone-cadeado.png);
+}
+
+#formulario input[type="submit"] {
+    padding: 0.5em 1.5em;
+    background: #ff7700;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-top: 10px;
 }
