@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 #files
 ex/
+index.html
+php/index.html
+echoEPrint.php
+atividade2.php
