@@ -14,26 +14,14 @@
             <h1 class="logo">Notícias Cidade </h1>
             <ul>
                 <li class="primeiro">
-                    <a id="home" href="index.html">Home</a>
+                    <a id="home" href="index.php">Home</a>
                 </li>
-                <li>
-                    <a id="brasil" href="Brasil.html">Brasil</a>
-                </li>
-                <li>
-                    <a id="internacional" href="">Internacional</a>
-                </li>
-                <li>
-                    <a id="economia" href="">Economia</a>
-                </li>
-                <li>
-                    <a id="saude" href="">Saúde</a>
-                </li>
-                <li>
-                    <a id="ciencia" href="">Ciência</a>
-                </li>
-                <li>
-                    <a id="fotos" href="">Fotos</a>
-                </li>
+                <?php
+                    $menu = array("Brasil", "Internacional", "Economia", "Saúde", "Ciência", "Fotos");
+                    foreach ($menu as $opcao) {
+                        echo "<li><a id='$opcao' href='$opcao.php'>$opcao</a></li>";
+                    }
+                ?>
             </ul>
         </div>
         <div id="conteudo">

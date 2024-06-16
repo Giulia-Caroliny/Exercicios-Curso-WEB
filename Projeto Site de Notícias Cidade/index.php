@@ -16,24 +16,12 @@
                 <li class="primeiro">
                     <a id="home" href="">Home</a>
                 </li>
-                <li>
-                    <a id="brasil" href="Brasil.html">Brasil</a>
-                </li>
-                <li>
-                    <a id="internacional" href="">Internacional</a>
-                </li>
-                <li>
-                    <a id="economia" href="">Economia</a>
-                </li>
-                <li>
-                    <a id="saude" href="">Saúde</a>
-                </li>
-                <li>
-                    <a id="ciencia" href="">Ciência</a>
-                </li>
-                <li>
-                    <a id="fotos" href="Fotos.html">Fotos</a>
-                </li>
+                <?php
+                    $menu = array("Brasil", "Internacional", "Economia", "Saúde", "Ciência", "Fotos");
+                    foreach ($menu as $opcao) {
+                        echo "<li><a id='$opcao' href='$opcao.php'>$opcao</a></li>";
+                    }
+                ?>
             </ul>
         </div>
         <div id="conteudo">
@@ -155,30 +143,12 @@
 
                     <div class="caixa-conteudo">
                         <ul>
-                            <li>
-                                <a href="">José Almeida</a>
-                            </li>
-                            <li>
-                                <a href="">Felipe Silva</a>
-                            </li>
-                            <li>
-                                <a href="">Renato Rodrigues</a>
-                            </li>
-                            <li>
-                                <a href="">Abelardo Silveira</a>
-                            </li>
-                            <li>
-                                <a href="">André Carlos</a>
-                            </li>
-                            <li>
-                                <a href="">Márcio Mello</a>
-                            </li>
-                            <li>
-                                <a href="">João Pedro</a>
-                            </li>
-                            <li>
-                                <a href="">Fernando Weiss</a>
-                            </li>
+                            <?php
+                            $entrevistados = array("José Almeida", "Felipe Silva", "Renato Rodrigues", "Abelardo Silveira", "André Carlos", "Márcio Mello", "João Pedro", "Fernando Weiss");
+                            foreach ($entrevistados as $entrevistado) {
+                                echo "<li><a href=''>$entrevistado</a></li>";
+                            }
+                            ?>
                         </ul>
                     </div>
                 </div>
